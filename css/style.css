@@ -35,7 +35,7 @@
     font-style: normal
 }
 @font-face {
-    font-family: 'DIN Next Rounded Regular Pro';
+    font-family: 'DIN Next Rounded Regulars Pro';
     src: url(../fonts/subset-DINNextRoundedLTPro-Regular.eot);
     src: url(../fonts/subset-DINNextRoundedLTPro-Regular.eot?#iefix) format('embedded-opentype'), url(../fonts/subset-DINNextRoundedLTPro-Regular.woff) format('woff'), url(../fonts/subset-DINNextRoundedLTPro-Regular.ttf) format('truetype');
     font-weight: 400;
@@ -4747,3 +4747,23 @@ section.half-section {
 .nav__item:focus {
     outline: none;
 }
+
+
+
+.video-background {
+ 
+  
+ 
+  z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+ 
+  display:inline-block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+
