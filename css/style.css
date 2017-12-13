@@ -7,7 +7,7 @@
     font-style: normal
 }
 @font-face {
-    font-family: 'DIN Next Rounded LT Pro';
+    font-family: 'DIN Next Rounded bold LT Pro';
     src: url(../fonts/subset-DINNextRoundedLTPro-Bold.eot);
     src: url(../fonts/subset-DINNextRoundedLTPro-Bold.eot?#iefix) format('embedded-opentype'), url(../fonts/subset-DINNextRoundedLTPro-Bold.woff) format('woff'), url(../fonts/subset-DINNextRoundedLTPro-Bold.ttf) format('truetype');
     font-weight: 700;
@@ -4508,4 +4508,20 @@ section.half-section {
       opacity: 1;
     }
   }
+
+
+
+@media all and (max-width: 720px) {
+
+    .cd-vertical-nav {display:none;}
+ 
+
+}
+
+@media all and (max-width: 479px) {
+
+    .content .one{display:none;}
+    .content .two{display:none;}
+    .content .three{display:block;}
+
 }
