@@ -110,7 +110,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{left: -280px;}
 
 @media (min-width: 1024px) and (max-width:1400px) {
     
-    body.wrap-nav-sidebar .wrapper .container{width: 100%;padding-left: 30px;}
+    body.wrap-nav-sidebar .wrapper .container{width: 100%;padding-left: 300px;}
 }
 
 @media (min-width: 1024px) {
