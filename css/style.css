@@ -190,33 +190,33 @@ ul {
     font-family: 'Gotham Ultra', sans-serif
 }
 h1, h2, h3, h4, h5, h6 {
-    margin: 0 0 22px;
+    margin: 0 0 5px;
     padding: 0;
     letter-spacing: 0;
     font-weight: 300
 }
 h1 {
-    font-size: 70px;
+    font-size: 3.5em;
     line-height: 70px
 }
 h2 {
-    font-size: 55px;
+    font-size: 30px;
     line-height: 60px
 }
 h3 {
-    font-size: 48px;
+    font-size: 26px;
     line-height: 54px
 }
 h4 {
-    font-size: 30px;
+    font-size: 23px;
     line-height: 46px
 }
 h5 {
-    font-size: 26px;
+    font-size: 20px;
     line-height: 40px
 }
 h6 {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 30px
 }
 .text-extra-small {
@@ -4720,7 +4720,7 @@ section.half-section {
     transition-timing-function: cubic-bezier(0.2,1,0.3,1);
 }
 
-.nav--maxamed .nav__item--current .nav__item-title {
+.nav--maxamed:hover .nav__item--current .nav__item-title {
     opacity: 1;
     -webkit-transform: scale3d(1,1,1);
     transform: scale3d(1,1,1);
