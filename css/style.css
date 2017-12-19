@@ -3232,11 +3232,9 @@ section.half-section {
 .swiper-portfolio-next {
     right: 15px
 }
-.white-move .swiper-slide {
-    cursor: url(../images/icon-move-light.png), move
-}
+
 .black-move .swiper-slide {
-    cursor: url(../images/icon-move-black.png), move
+    cursor: url(../img/1x/icon-move-black.png), move
 }
 .swiper-number {
     left: auto!important;
